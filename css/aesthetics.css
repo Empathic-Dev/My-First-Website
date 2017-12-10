@@ -13,6 +13,7 @@ header{
 h1{
 	font-size: 50px;
 	color: #0f6e7e;
+	text-shadow: 0 2px 6px #2c454c;
 }
 
 h2{
@@ -23,10 +24,11 @@ h2{
 header img{
 	border-radius: 300px;
 	border: 8px solid #41405C;
+	box-shadow: 0 2px 100px #2c454c;
 }
 
 .content{
-	max-width: auto;
+	max-width: 900px;
 	margin: 0 auto;
 	padding: 10px;
 	background-color: #18062d;
@@ -34,6 +36,7 @@ header img{
 }
 
 img.big-image{
+	margin-top: 15px;
 	max-width: 100%;
 }
 
@@ -50,7 +53,8 @@ ul{
 }
 
 a{
-	color: #074985;
+	color: #0a092e;
+	background-color: #656d75;
 	text-decoration: none;
 }
 
@@ -66,4 +70,8 @@ footer ul{
 footer ul li{
 	display: inline-block;
 	margin: 0 5px;
+}
+
+body{
+	background-color: #18062d;
 }
